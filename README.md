@@ -9,7 +9,8 @@
 
 ### DEMO LINK
 
-[DMS-WEB-APPLICATION](tuchela.github.io/Frontend-assement/)
+[DMS-WEB-APPLICATION](
+https://tuchela.github.io/Frontend-assement/)
 
 ### Author
 
