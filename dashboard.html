@@ -14,27 +14,130 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="shortcut icon"
-      href="./images/Logo (1).png"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./dashboard.css" />
     <title>Dashboard</title>
   </head>
   <body>
-    <header>
-      <section class="header">
-        <img src="./images/Logo (1).png" alt="" class="logo" />
-      </section>
-      <section class="header-items">
-        <section class="search-bar">
-          <p>Search</p>
+    <!-- dashboard  start-->
+    <section class="dashboard-container">
+      <section class="sidebar-container">
+        <span class="fa-solid fa-bars"></span>
+        <section class="dashboard-logo">
+          <img src="./images/logo.png" alt="dashboard logo" />
         </section>
-        <section class="profile">
-          <img src="./images/Frame 139 (2).png" alt="" class="frame" />
+        <section class="sidebar-content">
+          <ul class="sidebar-lists">
+            <li class="sidebar-list">
+              <img src="./images/dashboard.png" alt="icon" />
+              <span>Dashbaord</span>
+            </li>
+            <li class="sidebar-list">
+              <img src="./images/companies.png" alt="icon" />
+              <span>Companies</span>
+            </li>
+            <li class="sidebar-list">
+              <img src="./images/orders.png" alt="icon" />
+              <span>Order Pool</span>
+            </li>
+
+            <li class="sidebar-list">
+              <img src="./images/history.png" alt="icon" />
+              <span>Order History</span>
+            </li>
+
+            <li class="sidebar-list">
+              <img src="./images/subscription.png" alt="icon" />
+              <span>Subscription</span>
+            </li>
+
+            <li class="sidebar-list">
+              <img src="./images/earnings.png" alt="icon" />
+              <span>Earnings</span>
+            </li>
+
+            <li class="sidebar-list">
+              <img src="./images/report.png" alt="icon" />
+              <span>Report</span>
+            </li>
+
+            <li class="sidebar-list">
+              <img src="./images/settings.png" alt="icon" />
+              <span>Settings</span>
+            </li>
+
+            <li class="sidebar-list">
+              <img src="./images/supports.png" alt="icon" />
+              <span>Support</span>
+            </li>
+          </ul>
+          <section class="logout">
+            <img src="./images/sign-out.png" alt="icon" />
+            <span><a href="./login.html">Logout</a></span>
+          </section>
         </section>
       </section>
-    </header>
+      <section class="main-container">
+        <section class="topbar-container">
+          <section class="search-container">
+            <img src="./images/search.png" alt="search icon" />
+            <input type="search" placeholder="Search" />
+          </section>
+          <section class="admin-container">
+            <img src="./images/photo.png" alt="admin avatar" />
+            <span class="indicator"></span>
+            <div class="admin-info">
+              <h3>Jude Adam</h3>
+              <small>Admin</small>
+            </div>
+          </section>
+        </section>
+        <section class="dashboard-content">
+          <h3 class="dashboard-title">Dashboard</h3>
+
+          <section class="dashboard-wrapper">
+            <div class="left-container-wrapper">
+              <img src="./images/Excahange.png" alt="Excahange" class="exchange-img">
+            </div>
+            <div class="right-container-wrapper">
+              <div class="top-right-container">
+                <div class="top-left">
+                  <img src="./images/comapred.png" alt="comapred" class="compared-img">
+                </div>
+                <div class="top-right">
+                  <img src="./images/Todays.png" alt="Todays" class="today-img">
+                </div>
+              </div>
+              <div class="bottom-right-container">
+                <div class="bottom-left">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Deleniti dolorem dignissimos autem, dolore id nulla vel
+                  reiciendis magni maiores eius facere aspernatur totam sequi?
+                  Reprehenderit iusto vel est minus possimus enim dolorem sequi
+                  repudiandae qui voluptatem a, perferendis veniam laborum
+                  accusamus non omnis suscipit et maiores explicabo consequatur
+                  impedit, aut, saepe quis! Sequi porro recusandae voluptates
+                  rerum, assumenda quis quas ipsa deserunt minima fugit enim
+                  quibusdam aut autem laborum eaque doloremque nostrum
+                  laudantium.
+                </div>
+                <div class="bottom-right">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Molestias eum error, magnam provident nobis ut aliquam neque
+                  impedit ratione recusandae iste explicabo dolor aliquid non
+                  natus soluta quasi harum. Saepe a, eligendi esse dignissimos
+                  accusantium reiciendis facere aliquid dolore tempore nemo
+                  ipsam placeat quo veniam labore error provident vel, illo
+                  harum repellat excepturi, quisquam reprehenderit ut molestias
+                  dolorum, praesentium mollitia nisi possimus unde voluptates!
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </section>
+    </section>
+    <!-- dashboard  end-->
   </body>
 </html>
